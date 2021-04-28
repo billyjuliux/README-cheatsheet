@@ -1,49 +1,36 @@
-# Project Name
-> Here goes your awesome project description!
+# Deadline Remainder Assistant Chatbot
+> TUGAS BESAR 3 IF2211 STRATEGI ALGORITMA SEMESTER II TAHUN 2020/2021 PENERAPAN STRING MATCHING DAN REGULAR EXPRESSION DALAM PEMBANGUNAN DEADLINE REMINDER ASSISTANT
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [Installation](#installation)
+* [How To Run](#how-to-run)
+* [Author](#author)
 
 ## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+Chatbot ini menerapkan konsep _string matching_ dengan menggunakan algoritma _Knuth-Morris-Pratt_ dan _regex_. Proses pemilihan fitur yang akan dieksekusi didasarkan pada ada tidaknya suatu pola teks dari masukan user
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
+## Installation
+- Install Backend
+`cd src/backend`
+`pipenv install`
 
-## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+- Install Frontend
+`cd src/frontend`
+`npm install`
 
-## Setup
-Describe how to install / setup your local environement / add link to demo version.
+## How to Run
+1. Pastikan semua prerequisites sudah terpenuhi
+2. Siapkan 2 terminal untuk menjalankan backend dan frontend dari website
+3. Jalankan backend
+`cd src/backend`
+`pipenv shell`
+`flask run`
+4. Jalankan frontend
+`cd src/frontend`
+`npm start`
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-
-## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
-
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
-
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
-
-## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+## Author
+Billy Julius - 13519094
+Jonathan Christopher Jahja - 13519144
+Rolland Steven Supardi - 13519173
